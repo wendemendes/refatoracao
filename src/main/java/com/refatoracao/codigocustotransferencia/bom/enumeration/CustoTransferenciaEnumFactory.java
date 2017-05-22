@@ -1,11 +1,12 @@
-package com.refatoracao.codigobom.enumeration;
+package com.refatoracao.codigocustotransferencia.bom.enumeration;
 
-import com.refatoracao.codigobom.strategy.CustoComercialStrategy;
-import com.refatoracao.codigobom.strategy.CustoContabilStrategy;
-import com.refatoracao.codigobom.strategy.CustoTransferencia;
-import com.refatoracao.codigobom.strategy.PrecoTransferenciaStrategy;
-import com.refatoracao.codigobom.strategy.UltimaEntradaStrategy;
 import java.util.stream.Stream;
+
+import com.refatoracao.codigocustotransferencia.bom.strategy.CustoComercialStrategy;
+import com.refatoracao.codigocustotransferencia.bom.strategy.CustoContabilStrategy;
+import com.refatoracao.codigocustotransferencia.bom.strategy.CustoTransferencia;
+import com.refatoracao.codigocustotransferencia.bom.strategy.PrecoTransferenciaStrategy;
+import com.refatoracao.codigocustotransferencia.bom.strategy.UltimaEntradaStrategy;
 
 public enum CustoTransferenciaEnumFactory {
 	

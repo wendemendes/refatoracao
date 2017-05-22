@@ -1,11 +1,11 @@
-package com.refatoracao.codigobom.factory;
+package com.refatoracao.codigocustotransferencia.bom.factory;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.refatoracao.codigobom.enumeration.CustoTransferenciaEnumFactory;
-import com.refatoracao.codigobom.strategy.CustoTransferencia;
+import com.refatoracao.codigocustotransferencia.bom.enumeration.CustoTransferenciaEnumFactory;
+import com.refatoracao.codigocustotransferencia.bom.strategy.CustoTransferencia;
 
 @Service
 public class CustoTransferenciaFactory {

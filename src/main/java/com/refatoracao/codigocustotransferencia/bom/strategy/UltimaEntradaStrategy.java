@@ -1,4 +1,4 @@
-package com.refatoracao.codigobom.strategy;
+package com.refatoracao.codigocustotransferencia.bom.strategy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

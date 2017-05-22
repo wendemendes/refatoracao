@@ -1,4 +1,4 @@
-package com.refatoracao.codigobom.strategy;
+package com.refatoracao.codigocustotransferencia.bom.strategy;
 
 import com.refatoracao.loja.model.Loja;
 import com.refatoracao.produto.model.Produto;

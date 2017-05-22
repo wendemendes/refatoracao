@@ -1,10 +1,10 @@
-package com.refatoracao.codigobom.service;
+package com.refatoracao.codigocustotransferencia.bom.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.refatoracao.codigobom.factory.CustoTransferenciaFactory;
-import com.refatoracao.codigobom.strategy.CustoTransferencia;
+import com.refatoracao.codigocustotransferencia.bom.factory.CustoTransferenciaFactory;
+import com.refatoracao.codigocustotransferencia.bom.strategy.CustoTransferencia;
 import com.refatoracao.loja.model.Loja;
 import com.refatoracao.produto.model.Produto;
 

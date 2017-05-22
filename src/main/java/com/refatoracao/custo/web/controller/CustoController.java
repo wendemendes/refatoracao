@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.refatoracao.codigobom.service.CustoTransferenciaRefatoradoService;
-import com.refatoracao.codigoprecoruim.service.CustoTransferenciaService;
+import com.refatoracao.codigocustotransferencia.bom.service.CustoTransferenciaRefatoradoService;
+import com.refatoracao.codigocustotransferencia.ruim.service.CustoTransferenciaService;
 import com.refatoracao.custo.web.view.CustoView;
 import com.refatoracao.loja.model.Loja;
 import com.refatoracao.loja.service.LojaService;
